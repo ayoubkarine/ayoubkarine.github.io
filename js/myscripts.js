@@ -334,7 +334,6 @@ function showJournals(data){
 function showConferences(data) {
   content = "<ol>";
   for (let i = 0; i < data.numFound; i++) {
-    console.log(data.docs[i].docType_s);
     if (data.docs[i].docType_s == "COMM") {
       content += "<li>";
       for (let author of data.docs[i].authFullName_s)
@@ -352,7 +351,6 @@ function showConferences(data) {
 function showThesis(data) {
   content = "<ol>";
   for (let i = 0; i < data.numFound; i++) {
-    console.log(data.docs[i].docType_s);
     if (data.docs[i].docType_s == "THESE") {
       content += "<li>";
       for (let author of data.docs[i].authFullName_s)
@@ -522,7 +520,6 @@ $(document).ready(function(){
 // Function for load a highlited info if necessary
 $(document).ready(function(){
   $.getJSON("jsons/highlight.json", function(data){
-  	console.log(data.news.length);
    	if (data.news.length>0){
    		link_string = '';
    		if (data.news[0].link != ''){
