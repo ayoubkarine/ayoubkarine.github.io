@@ -1,0 +1,32 @@
+{
+	"institutions":[
+		{
+			"date": "Since 09/2019",
+			"school": "ISEN Yncréa Ouest",
+			"info": "",
+			"link": "https://isen-nantes.fr/",
+			"department": "Nantes Campus"
+		},
+		{
+			"date": "2017-2019",
+			"school": "IUT de Mulhouse",
+			"info": "",
+			"link": "http://www.iutmulhouse.uha.fr/",
+			"department": "Multimedia and Web Department"
+		},
+		{
+			"date": "2014-2017",
+			"school": "Faculty of science",
+			"info": "",
+			"link": "http://www.fsr.ac.ma/",
+			"department": "Computer Science department"
+		}
+	],
+	"courses": ["Full-stack web development", "Machine Learning", "Deep Learning", "XML", "Algorithmic", "Operating Systems", "Information System", "Security Network"]
+}
+
+
+
+
+
+

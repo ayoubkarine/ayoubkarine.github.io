@@ -1,0 +1,47 @@
+{
+	"background":[
+		{
+			"date": "Since 2019",
+			"position": "Associate Professor",
+			"employer": ["ISEN Yncréa Ouest/Nantes Campus"],
+			"employer_links": ["https://isen-nantes.fr/"],
+			"content": "Associate Professor at <a href=\"https://isen-nantes.fr/\" target=\"_blank\">ISEN Yncréa Ouest/Nantes Campus</a>"
+		},
+		{
+			"date": "2017-2019",
+			"position": "ATER (Teaching and Research Assistant)",
+			"employer": ["IUT de Mulhouse/Université de Haute-Alsace"],
+			"employer_links": ["https://www.iutmulhouse.uha.fr/"]
+		}
+	],
+	"education":[
+		{
+			"date": "2018",
+			"degree": "PhD in Computer Science",
+			"school": ["Université de Bretagne occidentale", "Université Mohammed V (Morocco)"],
+			"school_links": ["https://www.univ-brest.fr/", "http://www.um5.ac.ma/um5/"]
+		},
+		{
+			"date": "2014",
+			"degree": "Master in computer science and telecommunication",
+			"school": ["Université Mohammed V (Morocco), Faculty of science"],
+			"school_links": ["http://www.fsr.ac.ma/"]
+		},
+    {
+      "date": "2012",
+      "degree": "Bachelor in mathematics and computer science",
+      "school": [
+        "Université Mohammed V (Morocco), Faculty of science"
+      ],
+      "school_links": [
+        "http://www.fsr.ac.ma/"
+      ]    
+    }
+	],
+	"responsabilities":[
+		"<b>Since 2020</b> : Head of the third year of CGSI (Cycle Généraliste des Sciences de l'Ingénieur)",
+    "<b>2019-2020</b> : Head of the second year of CGSI (Cycle Généraliste des Sciences de l'Ingénieur)"
+	]
+}
+
+

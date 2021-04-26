@@ -1,0 +1,38 @@
+{
+	"news":[
+		{
+			"date": "12/2020",
+			"content": "Salima Bourbia starts a PhD thesis, working on quality assessment of 3D point cloud"
+		},
+		{
+			"date": "11/2020",
+			"content": "Kacem Ichakdi starts a PhD thesis, working on 3D point cloud segmentation using deep learning"
+		},
+		{
+			"date": "08/2020",
+			"content": "New paper accepted at <a href=\"http: //www.ipta-conference.com/ipta20/\">IPTA2020</a>"
+		},
+		{
+			"date": "05/2020",
+			"content": "<a href=\"docs/SujetCotutelle_ISENYncreaOuest.pdf\" target=\"_blank\">Phd position on 3D point cloud segmentation (position filled)"
+		},
+		{
+			"date": "03/2020",
+			"content": "New journal paper accepted in <a href=\"https://www.journals.elsevier.com/computers-and-electrical-engineering target=\"_blank\">Computers & Electrical Engineering</a> on Multivariate Copula Statistical Model and Weighted Sparse Classification for Radar Image Target Recognition"
+		},
+		{
+			"date": "12/2019",
+			"content": "Simohamed Hdafa starts a PhD thesis, working on image captionning using deep learning"
+		},
+		{
+			"date": "09/2019",
+			"content": "New position : Associate Professor at <a href=\"https: //isen-nantes.fr/\">ISEN Yncréa Ouest/Nantes Campus, France"
+		},
+		{
+			"date": "12/2018",
+			"content": "I successfully defended my PhD thesis !"
+		}
+	]
+}
+
+
