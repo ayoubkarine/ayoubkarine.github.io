@@ -1,0 +1,26 @@
+{
+	"name": "Dr. Ayoub Karine",
+	"title": "Associate Professor at ISEN Yncréa Oueste",
+	"abstract": "I am an associate professor at <a href=\"https://isen-nantes.fr/\" target=\"_blank\">ISEN Yncréa Ouest/Nantes Campus</a>. <br> My research interests include computer vision, machine/deep learning and are conducted in <a href=\"https://isen-brest.fr/labisen/\" target=\"_blank\">L@bISEN – Yncréa Ouest </a>/ <a href=\"https://isen-brest.fr/labisen/structure-labisen/recherche-departement-vision/\" target=\"_blank\"> VISION-AD Team</a>.",
+	"image": "imgs/ayoub.jpg",
+	"keywords": ["quality assessment", "3D point cloud segmentation", "image captioning", "machine learning", "image classification", "image segmentation", "deep learning"],
+	"contact": 
+	{
+		"employer": "ISEN Yncréa Ouest",
+		"street": "35 Avenue du Champ de Manœuvre",
+		"city": "44470 Carquefou, France",
+		"email": "ayoub.karine[at]isen-ouest.yncrea.fr",
+		"phone": "+33 (0)2 30 13 05 65"	
+	},
+	"links":
+	{
+		"linkedin": "https://www.linkedin.com/in/ayoub-karine-a01ba384",
+		"scholar": "https://scholar.google.fr/citations?user=acAw9KAAAAAJ&hl=fr",
+		"dblp": "https://dblp.org/pid/183/1983.html",
+		"twitter": "https://twitter.com/ayoub_karine",
+		"researchgate": "https://www.researchgate.net/profile/Ayoub_Karine?ev=hdr_xprf&_sg=eJkSR2ljqVo6Ub414o2YwqTDXE2e1tV5SPoWZQv35B3oJoSgYfbNmLlZt57lBUJCiaEapS_Iz82ix5Z6XveLFdaC",
+		"orcid": "https://orcid.org/0000-0002-9304-4613",
+		"publons": "https://publons.com/researcher/1627569/ayoub-karine/",
+		"github": "https://github.com/ayoubkarine"
+	}
+}

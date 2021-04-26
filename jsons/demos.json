@@ -1,0 +1,16 @@
+{
+	"demos":[
+		{
+			"title": "Visualization on Sphere",
+			"description": "The aim of this application is to illustrate my research on human action recognition. It allows to visualize actions lying on the high-dimensional Riemannian shape. From the MSR Action 3D dataset, I used one representant for each action class. To reduce the dimensionnality and observe data on a sphere, I used Multidimensional Scaling (MDS) with the elastic distances between representative actions. From these existing actions, one can generate new actions represented by a weighted Riemannian center of mass among a set of existing actions.",
+			"video_src": "https://www.youtube.com/embed/kV92iJNYnBo",
+			"img_legend": "imgs/legend.png"
+		},
+		{
+			"title": "Gesture Learning",
+			"description": "This demo illustrates an example of gesture assesment. For instance, it could be useful for a rehabilitation application or in a sport motion learning application. This application is based on my research on human motion analysis. It allows a “teacher” to record a new movement using a Kinect v2. Then a “student” can try to perform the same gesture, and a corresponding score is given. In addition, the user can visualize a feedback where its body parts are colorized according to a color map to highlight errors.",
+			"video_src": "https://www.youtube.com/embed/YGmbpoE60b4",
+			"img_legend": ""
+		}
+	]
+}

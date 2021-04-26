@@ -1,0 +1,26 @@
+{
+	"current":[
+		{
+			"name": "TIMES",
+			"link": "http://anr-times.unistra.fr/",
+			"date": "2017-",
+			"topic": "Geoscience and Remote Sensing data Analysis and Monitoring",
+			"partners": ["LIVE","EOST","LIPADE"],
+			"partners_links": ["https://live.unistra.fr/", "https://eost.unistra.fr/en/", "http://lipade.mi.parisdescartes.fr/?lang=fr"],
+			"fundings": "ANR"
+		}
+	],
+	"past":[
+		{
+			"name": "AFB_SEAS",
+			"link": "",
+			"date": "2019-2020",
+			"topic": "Analysis of seal behavior through deep learning",
+			"partners": ["Office français de la biodiversité", "Océanopolis Brest"],
+			"partners_links": ["https://ofb.gouv.fr/", "https://www.oceanopolis.com/"],
+			"fundings": ""
+		}
+	]
+}
+
+
