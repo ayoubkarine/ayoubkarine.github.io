@@ -89,7 +89,7 @@ $(document).ready(function(){
 			$("#education").append('<li><B>' + data.education[i].date + ':</B> ' + data.education[i].degree + ' at ' + school_string + '</li>');
 		}
 
-		// "#responsabilities
+		// responsabilities
 		for (var i=0; i<data.responsabilities.length; i++){
 			$("#responsabilities").append('<li>'+ data.responsabilities[i] + '</li>');
 		}
@@ -189,27 +189,6 @@ $(document).ready(function(){
 			}
 			$("#students-phd").append('<li>' + student_string + partner_string + '</li>');
 		}
-		// postdocs
-		// for (var i=0; i<data.postdoc.length; i++){
-		// 	partner_string='<br>Co-supervised with ';
-		// 	for (e=0; e<data.postdoc[i].partners.length; e++){
-		// 		if (e>0){
-		// 			if (e==(data.postdoc[i].partners.length-1)){
-		// 				partner_string = partner_string + ' and ';
-		// 			}else{
-		// 				partner_string = partner_string + ', ';
-		// 			}
-		// 		}
-		// 		partner_string = partner_string + '<a href="' + data.postdoc[i].partners_links[e] + '" target="_blank">' + data.postdoc[i].partners[e] + '</a>';
-		// 	}
-		// 	if (data.postdoc[i].link != ''){
-		// 		student_string='<B><a href="' + data.postdoc[i].link + '" target="_blank">' + data.postdoc[i].name + '</a></B>' + ' <B>(' + data.postdoc[i].date + '):</B> Working on ' + data.postdoc[i].project + ' project. ';
-		// 	}else{
-		// 		student_string='<B><a href="#research">' + data.postdoc[i].name + '</a></B>' + ' <B>(' + data.postdoc[i].date + '):</B> Working on ' + data.postdoc[i].project + ' project. ';
-		// 	}
-		// 	$("#students-postdocs").append('<li>' + student_string + partner_string + '.</li>');
-		// }
-		// engineers/masters
     for (var i = 0; i < data.master.length; i++) {
       partner_string = '<br>Co-supervised with ';
       for (e = 0; e < data.master[i].partners.length; e++) {
@@ -229,7 +208,6 @@ $(document).ready(function(){
       }
       $("#students-master").append('<li>' + student_string + partner_string + '.</li>');
     }
-		// graduated
 	});
 });
 
@@ -366,128 +344,6 @@ function showThesis(data) {
   $("#dissertations").append(content);
 }
 getPublications();
-
-// Function to read bib and display publications
-// $(document).ready(function(){
-// 	$.get('publis/mypublis.bib', function(data) {
-//    	res = bibtexParse.toJSON(data);
-	
-// 	cptIntArticle=0;
-// 	cptIntConf=0;
-// 	cptChapter=0;
-// 	cptNatConf=0;
-
-// 	for (i=0; i<res.length; i++){
-// 		// authors
-// 		authors_string='';
-// 		authors = res[i].entryTags.author.split(' and ');
-// 		for (a=0; a<authors.length-1; a++){
-// 			names = authors[a].split(', ');
-// 			if (names[0] == 'Devanne'){
-// 				authors_string = authors_string + '<B>' + names[1] + ' ' + names[0] + '</B>, ';
-// 			}else{
-// 				authors_string = authors_string + names[1] + ' ' + names[0] + ', ';
-// 			} 
-// 		}
-// 		authors_string = authors_string.substring(0, authors_string.length - 2);
-// 		names = authors[authors.length-1].split(', ');
-// 		if (names[0] == 'Devanne'){
-// 			authors_string = authors_string + ' and ' + '<B>' + names[1] + ' ' + names[0] + '</B>';
-// 		}else{
-// 			authors_string = authors_string + ' and ' + names[1] + ' ' + names[0];
-// 		}
-// 		link_string='<div class="bib">';
-// 		if (res[i].entryTags.hasOwnProperty('pdf')){
-// 			link_string = link_string + '<a href="' + res[i].entryTags.pdf + '" target="blank_"><i class="fas fa-file-pdf-o"></i></a> ';
-// 		}
-// 		if (res[i].entryTags.hasOwnProperty('url')){
-// 			link_string = link_string + '<a href="' + res[i].entryTags.url + '" target="blank_"><i class="fas fa-link"></i></a> ';
-// 		}
-
-// 		link_string += '<a href="javascript: toggleInfos(\'' + res[i].citationKey + '\',\'bibtex\')">[BibTex]</a>';
-
-// 		if (res[i].entryTags.hasOwnProperty('code')){
-// 			link_string += ' <a href="' + res[i].entryTags.code + '" target="blank_"><i class="fab fa-github-square"></i></a>';
-// 		}
-
-// 		link_string += '</div>'
-
-// 		if (res[i].entryType == "article"){
-// 			// article
-// 			cptIntArticle++;
-// 			num_string = '';
-// 			if (res[i].entryTags.number != ''){
-// 				num_string = '(' + res[i].entryTags.number + ') ';
-// 			}
-// 			res[i].entryTags.pages = res[i].entryTags.pages.replace("--", "-")
-// 			publi_string = authors_string + '.<br>' + res[i].entryTags.title + '.<br><i>' + res[i].entryTags.journal + ', Vol. ' + res[i].entryTags.volume + num_string + ', pp. ' + res[i].entryTags.pages + ', ' + res[i].entryTags.year +'.</i><br>' + link_string;
-// 			$("#int_journals").append('<tr id="' + res[i].citationKey + '" class="entry"><td style="width:40px;padding-right:1em;">[' + cptIntArticle + ']</td><td>' + publi_string + '</td></tr>');
-// 			$("#int_journals").append('<tr id="bib_' + res[i].citationKey + '" class="bibtex noshown"><td style="width:40px"></td><td class="bibtex-col"><pre>\n@article{' + res[i].citationKey + ',\n  author = {' + res[i].entryTags.author + '},\n  title = {' + res[i].entryTags.title + '},\n  journal = {' + res[i].entryTags.journal + '},\n  volume = {' + res[i].entryTags.volume + '},\n  number = {' + res[i].entryTags.number + '},\n  pages = {' + res[i].entryTags.pages + '},\n  url = {' + res[i].entryTags.url + '},\n  year = {'+ res[i].entryTags.year + '},\n  publisher = {' + res[i].entryTags.publisher + '}\n}' + '</td></tr>');
-// 		}else if (res[i].entryType == 'inproceedings'){
-// 			if ((res[i].entryTags.hasOwnProperty('language')) && (res[i].entryTags.language == 'french')){
-// 				// national conf
-// 				cptNatConf++;
-// 				publi_string = authors_string + '.<br>' + res[i].entryTags.title + '.<br><i>' + res[i].entryTags.booktitle + ', ' + res[i].entryTags.city + ', ' + res[i].entryTags.country + ', ' + res[i].entryTags.year +'.</i><br>' + link_string;
-// 				$("#nat_confs").append('<tr id="' + res[i].citationKey + '" class="entry"><td style="width:40px;padding-right:1em;">[' + cptNatConf + ']</td><td>' + publi_string + '</td></tr>');
-// 				$("#nat_confs").append('<tr id="bib_' + res[i].citationKey + '" class="bibtex noshown"><td style="width:40px"></td><td class="bibtex-col"><pre>\n@inproceedings{' + res[i].citationKey + ',\n  author = {' + res[i].entryTags.author + '},\n  title = {' + res[i].entryTags.title + '},\n  booktitle = {' + res[i].entryTags.booktitle + '},\n  city = {' + res[i].entryTags.city + '},\n  country = {' + res[i].entryTags.country + '},\n  pages = {' + res[i].entryTags.pages + '},\n  url = {' + res[i].entryTags.url + '},\n  year = {'+ res[i].entryTags.year + '},\n  organization = {' + res[i].entryTags.organization + '}\n}' + '</td></tr>');
-// 			}else{
-// 				// international conf
-// 				cptIntConf++;
-// 				publi_string = authors_string + '.<br>' + res[i].entryTags.title + '.<br><i>' + res[i].entryTags.booktitle + ', ' + res[i].entryTags.city + ', ' + res[i].entryTags.country + ', ' + res[i].entryTags.year +'.</i><br>' + link_string;
-// 				$("#int_confs").append('<tr id="' + res[i].citationKey + '" class="entry"><td style="width:40px;padding-right:1em;">[' + cptIntConf + ']</td><td>' + publi_string + '</td></tr>');
-// 				$("#int_confs").append('<tr id="bib_' + res[i].citationKey + '" class="bibtex noshown"><td style="width:40px"></td><td class="bibtex-col"><pre>\n@inproceedings{' + res[i].citationKey + ',\n  author = {' + res[i].entryTags.author + '},\n  title = {' + res[i].entryTags.title + '},\n  booktitle = {' + res[i].entryTags.booktitle + '},\n  city = {' + res[i].entryTags.city + '},\n  country = {' + res[i].entryTags.country + '},\n  pages = {' + res[i].entryTags.pages + '},\n  url = {' + res[i].entryTags.url + '},\n  year = {'+ res[i].entryTags.year + '},\n  organization = {' + res[i].entryTags.organization + '}\n}' + '</td></tr>');
-// 			}
-// 		}else if (res[i].entryType == 'inbook'){
-// 			// book chapter
-// 			cptChapter++;
-// 			publi_string = authors_string + '.<br>' + res[i].entryTags.title + '.<br><i>' + res[i].entryTags.booktitle + ', pp.' + res[i].entryTags.pages + ', ' + res[i].entryTags.year +'.</i><br>' + link_string;
-// 			$("#chapters").append('<tr id="' + res[i].citationKey + '" class="entry"><td style="width:40px;padding-right:1em;">[' + cptChapter + ']</td><td>' + publi_string + '</td></tr>');
-// 			$("#chapters").append('<tr id="bib_' + res[i].citationKey + '" class="bibtex noshown"><td style="width:40px"></td><td class="bibtex-col"><pre>\n@inbook{' + res[i].citationKey + ',\n  author = {' + res[i].entryTags.author + '},\n  title = {' + res[i].entryTags.title + '},\n  booktitle = {' + res[i].entryTags.booktitle + '},\n  pages = {' + res[i].entryTags.pages + '},\n  url = {' + res[i].entryTags.url + '},\n  year = {'+ res[i].entryTags.year + '},\n  editor = {' + res[i].entryTags.editor + '}\n}' + '</td></tr>');
-// 		}
-// 	}
-
-// }, 'text');
-// });
-
-
-
-// function toggleInfos(articleid,info) {
-//     var entry = document.getElementById(articleid);
-//     var abs = document.getElementById('abs_'+articleid);
-//     var rev = document.getElementById('rev_'+articleid);
-//     var bib = document.getElementById("bib_"+articleid);
-
-//     if ($("#bib_"+articleid).is(":hidden")){
-//     	$("#bib_"+articleid).show();
-//     }else{
-//     	$("#bib_"+articleid).hide();
-//     }
-
-//     if (abs && info == 'abstract') {
-//       abs.className.indexOf('noshow') == -1?abs.className = 'abstract noshow':abs.className = 'abstract shown';
-//     } else if (rev && info == 'review') {
-//       rev.className.indexOf('noshow') == -1?rev.className = 'review noshow':rev.className = 'review shown';
-//     } else if (bib && info == 'bibtex') {
-//       bib.className.indexOf('noshow') == -1?bib.className = 'bibtex noshow':bib.className = 'bibtex shown';
-//     } else { 
-//       return;
-//     }
-
-//   // check if one or the other is available
-//   var revshow; var absshow; var bibshow;
-//   (abs && abs.className.indexOf('noshow') == -1)? absshow = true: absshow = false;
-//   (rev && rev.className.indexOf('noshow') == -1)? revshow = true: revshow = false;  
-//   (bib && bib.className.indexOf('noshow') == -1)? bibshow = true: bibshow = false;
-  
-//   // highlight original entry
-//   if(entry) {
-//     if (revshow || absshow || bibshow) {
-//       entry.className = 'entry highlight shown';
-//     } else {
-//       entry.className = 'entry shown';
-//     }
-//   }
-// }
 
 
 // Function for smooth scroll on links
