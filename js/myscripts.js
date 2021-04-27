@@ -376,6 +376,7 @@ $(document).ready(function(){
 // Function for load a highlited info if necessary
 $(document).ready(function(){
   $.getJSON("jsons/highlight.json", function(data){
+    alert(data.news.length);
    	if (data.news.length>0){
    		link_string = '';
    		if (data.news[0].link != ''){
