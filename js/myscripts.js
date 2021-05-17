@@ -202,7 +202,7 @@ $(document).ready(function(){
         partner_string = partner_string + '<a href="' + data.master[i].partners_links[e] + '" target="_blank">' + data.master[i].partners[e] + '</a>';
       }
       if (data.master[i].link != '') {
-        student_string = '<B><a href="' + data.master[i].link + '" target="_blank">' + data.master[i].name + '</a></B>' + ' <B>(' + data.master[i].date + '):</B> ' + data.master[i].topic + ' project. ';
+        student_string = '<B><a href="' + data.master[i].link + '" target="_blank">' + data.master[i].name + '</a></B>' + ' <B>(' + data.master[i].date + '):</B> ' + data.master[i].topic;
       } else {
         student_string = '<B><a href="#research">' + data.master[i].name + '</a></B>' + ' <B>(' + data.master[i].date + '):</B>' + data.master[i].topic;
       }
