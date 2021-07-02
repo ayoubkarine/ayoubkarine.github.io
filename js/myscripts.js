@@ -280,7 +280,7 @@ function getPublications(){
   const AUTHOR = "Ayoub-Karine";
   const HAL_API_URL = 'https://api.archives-ouvertes.fr/search/' +
     '?q=auth_t:("'+AUTHOR+'")'+ 
-    '&fl=docType_s,authFullName_s,title_s,citationRef_s,label_s,label_bibtex,' +
+    '&fl=docType_s,authFullName_s,title_s,citationRef_s,label_s,label_bibtex,seeAlso_s' +
     '&sort=producedDate_s desc';
   fetch(HAL_API_URL)
     .then(publis => publis.json()) 
@@ -303,6 +303,8 @@ function showJournals(data){
       content += '<span class="reference">' + data.docs[i].citationRef_s + ' </span>';
       content += ' <a href=" + data.docs[i].label_bibtex + "';
       content += ' class="badge badge-secondary" download>bibtex</a>';
+      content += ' <a href=" + data.docs[i].seeAlso_s + "';
+      content += ' class="badge badge-secondary" download>code</a>';
       content += "</li>";
     }
   }
@@ -320,6 +322,8 @@ function showConferences(data) {
       content += '<span class="reference">' + data.docs[i].citationRef_s + ' </span>';
       content += ' <a href="data:application/octet-stream,' + data.docs[i].label_bibtex + '"';
       content += ' class="badge badge-secondary" download>bibtex</a>';
+      content += ' <a href=" + data.docs[i].seeAlso_s + "';
+      content += ' class="badge badge-secondary" download>code</a>';
       content += "</li>";
     }
   }
