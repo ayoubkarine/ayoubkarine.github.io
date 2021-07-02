@@ -304,7 +304,7 @@ function showJournals(data){
       content += ' <a href=" + data.docs[i].label_bibtex + "';
       content += ' class="badge badge-secondary" download>bibtex</a>';
       if(data.docs[i].seeAlso_s!=""){
-        content += ' <a href=" + data.docs[i].seeAlso_s + "';
+        content += ' <a href=' + data.docs[i].seeAlso_s + '"';
         content += ' class="badge badge-secondary" download>code</a>';
         }
       content += "</li>";
@@ -325,7 +325,7 @@ function showConferences(data) {
       content += ' <a href="data:application/octet-stream,' + data.docs[i].label_bibtex + '"';
       content += ' class="badge badge-secondary" download>bibtex</a>';
       if(data.docs[i].seeAlso_s!=""){
-        content += ' <a href=" + data.docs[i].seeAlso_s + "';
+        content += ' <a href=' + data.docs[i].seeAlso_s + '"';
         content += ' class="badge badge-secondary" download>code</a>';
         }
       content += "</li>";
