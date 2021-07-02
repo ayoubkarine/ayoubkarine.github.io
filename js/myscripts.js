@@ -324,9 +324,9 @@ function showConferences(data) {
       content += '<span class="reference">' + data.docs[i].citationRef_s + ' </span>';
       content += ' <a href="data:application/octet-stream,' + data.docs[i].label_bibtex + '"';
       content += ' class="badge badge-secondary" download>bibtex</a>';
-      console.log(data.docs[i]);
       console.log("test");
-      if(data.docs[i].seeAlso_s!=""){
+      console.log(data.docs[i].hasOwnProperty('seeAlso_s'));
+      if(data.docs[i].hasOwnProperty('seeAlso_s')){
         content += ' <a href=' + data.docs[i].seeAlso_s + '"';
         content += ' class="badge badge-secondary" download>code</a>';
         }
