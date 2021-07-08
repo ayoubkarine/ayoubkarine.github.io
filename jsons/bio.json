@@ -5,12 +5,12 @@
 			"position": "Associate Professor",
 			"employer": ["ISEN Yncréa Ouest/Nantes Campus"],
 			"employer_links": ["https://isen-nantes.fr/"],
-			"content": "Associate Professor at <a href=\"https://isen-nantes.fr/\" target=\"_blank\">ISEN Yncréa Ouest/Nantes Campus</a>"
+			"content": "Associate Professor at <a href=\"https://isen-nantes.fr/\" target=\"_blank\">ISEN Yncréa Ouest/Nantes Campus, France</a>"
 		},
 		{
 			"date": "2017-2019",
 			"position": "ATER (Teaching and Research Assistant)",
-			"employer": ["IUT de Mulhouse/Université de Haute-Alsace"],
+			"employer": ["IUT de Mulhouse/Université de Haute-Alsace, France"],
 			"employer_links": ["https://www.iutmulhouse.uha.fr/"]
 		}
 	],
@@ -18,7 +18,7 @@
 		{
 			"date": "2018",
 			"degree": "PhD in Computer Science",
-			"school": ["Université de Bretagne occidentale", "Université Mohammed V (Morocco)"],
+			"school": ["Université de Bretagne occidentale(France)", "Université Mohammed V(Morocco)"],
 			"school_links": ["https://www.univ-brest.fr/", "http://www.um5.ac.ma/um5/"]
 		},
 		{
