@@ -305,7 +305,7 @@ function showJournals(data){
       content += ' class="badge badge-secondary" download>bibtex</a>';
       if(data.docs[i].hasOwnProperty('seeAlso_s')){
         content += " <a href="  + data.docs[i].seeAlso_s;
-        content += ' class="badge badge-secondary" download>code</a>';
+        content += ' class="badge badge-secondary" target="_blank">code</a>';
         }
       content += "</li>";
     }
@@ -328,7 +328,7 @@ function showConferences(data) {
       console.log(data.docs[i].hasOwnProperty('seeAlso_s'));
       if(data.docs[i].hasOwnProperty('seeAlso_s')){
         content += " <a href="  + data.docs[i].seeAlso_s;
-        content += ' class="badge badge-secondary" download>code</a>';
+        content += ' class="badge badge-secondary" target="_blank">code</a>';
         }
       content += "</li>";
     }
