@@ -18,21 +18,6 @@
 			"partners": ["M. Jridi", "T. Napoléon", "M. EL Hassouni"],
 			"partners_links": ["https://sites.google.com/site/jridimaher/", "https://fr.linkedin.com/in/thibault-napol%C3%A9on-4990782", "https://www.linkedin.com/in/mohammed-el-hassouni-28a4b320/"]
 		},
-		{
-			"name": "Simohamed Hdafa",
-			"link": "https://www.linkedin.com/in/simohamed-hdafa-63a94299/",
-			"position" : "PhD student",
-			"date": "12/2019-",
-			"topic": "Image captionning using deep learning",
-      "partners": [
-        "M. Jridi",
-        "M. EL Hassouni"
-      ],
-      "partners_links": [
-        "https://sites.google.com/site/jridimaher/",
-        "https://www.linkedin.com/in/mohammed-el-hassouni-28a4b320/"
-      ]
-		}
 	],
   "master": [
     {
