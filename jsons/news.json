@@ -1,6 +1,10 @@
 {
 	"news":[
 		{
+			"date": "12/2021",
+			"content": "Our paper \"Blind projection-based 3D point cloud quality assessment method using a convolutional neural network\" has been accepted to The <a href=\"https://visapp.scitevents.org/ target=\"_blank\">VISAPP 2022</a>"
+		},
+		{
 			"date": "05/2021",
 			"content": "Our paper \"A Multi-task convolutional neural network for blind stereoscopic image quality assessment using naturalness analysis\" has been accepted to The <a href=\"https://2021.ieeeicip.org/ target=\"_blank\">ICIP 2021</a>"
 		},
