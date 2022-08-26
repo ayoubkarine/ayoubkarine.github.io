@@ -8,15 +8,6 @@
 			"topic": "Quality assessment of 3D point cloud",
 			"partners": ["M. EL Hassouni", "A. Chetouani"],
 			"partners_links": ["https://www.linkedin.com/in/mohammed-el-hassouni-28a4b320/", "https://www.linkedin.com/in/aladine-chetouani-2aa66038/"]
-		},
-		{
-			"name": "Kacem Ichakdi",
-			"link": "https://www.linkedin.com/in/kacem-ichakdi-584b70138/",
-			"date": "12/2020-",
-			"position" : "PhD student",
-			"topic": "3D point cloud segmentation using deep learning",
-			"partners": ["M. Jridi", "T. Napoléon", "M. EL Hassouni"],
-			"partners_links": ["https://sites.google.com/site/jridimaher/", "https://fr.linkedin.com/in/thibault-napol%C3%A9on-4990782", "https://www.linkedin.com/in/mohammed-el-hassouni-28a4b320/"]
 		}
 	],
   "master": [
