@@ -1,6 +1,10 @@
 {
 	"news":[
 		{
+			"date": "09/2022",
+			"content": "Our paper \"Semantic Images Segmentation for autonomous driving using Self-Attention Knowledge Distillation\" has been accepted to The <a href=\"https://www.sitis-conference.org/2022/\" target=\"_blank\">IEEE SITIS 2022</a>"
+		},
+		{
 			"date": "08/2022",
 			"content": "Our paper \"No-reference Point Clouds Quality Assessment using Transformer and Visual Saliency\" has been accepted to The <a href=\"https://qoevma2022.youku.com/\" target=\"_blank\">QoEVMA/ACMM 2022</a>"
 		},
