@@ -3,7 +3,7 @@
 	"title": "Associate Professor at ISEN Yncréa Ouest",
 	"abstract": "I am an associate professor at <a href=\"https://isen-nantes.fr/\" target=\"_blank\">ISEN Yncréa Ouest/Nantes Campus</a>. <br> My research interests include computer vision, machine/deep learning and are conducted in <a href=\"https://isen-brest.fr/labisen/\" target=\"_blank\">L@bISEN – Yncréa Ouest </a>/ <a href=\"https://isen-brest.fr/labisen/structure-labisen/recherche-departement-vision/\" target=\"_blank\"> VISION-AD Team</a>.",
 	"image": "imgs/ayoub.jpg",
-	"keywords": ["quality assessment", "3D point cloud segmentation", "image captioning", "machine learning", "image classification", "image segmentation", "deep learning"],
+	"keywords": ["3D point cloud quality assessment", "Knowledge distillation", "3D point cloud segmentation", "machine/deep learning", "image classification/segmentation"],
 	"contact": 
 	{
 		"employer": "ISEN Yncréa Ouest",
