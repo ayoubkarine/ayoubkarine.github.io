@@ -298,6 +298,9 @@ function showJournals(data){
       let id ="int_journals";
       content += "<li>"; 
       for (let author of data.docs[i].authFullName_s)
+        if (author == "Ayoub Karine"){
+           author = "<b><u>" + author + "</u></b>";
+          }
         content += author + ', ';
       content += ' <b>' + data.docs[i].title_s + '</b>. ';
       content += '<span class="reference">' + data.docs[i].citationRef_s + ' </span>';
