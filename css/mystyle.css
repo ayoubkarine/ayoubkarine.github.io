@@ -32,12 +32,6 @@ section:before {
 B {
     color : var(--main-color1);
 }
-ul {
-    transform: rotate(180deg);
-}
-ul > li {
-    transform: rotate(-180deg);
-}
 .navbar-light .navbar-nav .nav-link {
     color: var(--main-color1);
     font-size: 1.5rem;
