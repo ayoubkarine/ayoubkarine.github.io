@@ -299,9 +299,10 @@ function showJournals(data){
       content += "<li>"; 
       for (let author of data.docs[i].authFullName_s)
         if (author == "Ayoub Karine"){
+	   console.log(author + "a yana");
            author = "<b><u>" + author + "</u></b>";
           }
-        content += author + ', ';
+	content += author + ', ';
       content += ' <b>' + data.docs[i].title_s + '</b>. ';
       content += '<span class="reference">' + data.docs[i].citationRef_s + ' </span>';
       content += ' <a href=" + data.docs[i].label_bibtex + "';
