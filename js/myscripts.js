@@ -292,7 +292,7 @@ function getPublications(){
     .catch(error => console.log("Erreur !"));
 }
 function showJournals(data){
-  content = "<ol>";
+  content = "<ol reversed>";
   for (let i = 0; i < data.numFound; i++) {
     if (data.docs[i].docType_s=="ART"){
       let id ="int_journals";
@@ -318,7 +318,7 @@ function showJournals(data){
   $("#int_journals").append(content);
 }
 function showConferences(data) {
-  content = "<ol>";
+  content = "<ol reversed>";
   for (let i = 0; i < data.numFound; i++) {
     if (data.docs[i].docType_s == "COMM") {
       content += "<li>";
