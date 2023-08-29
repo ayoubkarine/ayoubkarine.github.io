@@ -299,7 +299,6 @@ function showJournals(data){
       content += "<li>"; 
       for (let author of data.docs[i].authFullName_s){
         if (author == "Ayoub Karine"){
-	   console.log(author + "a yana");
            author = "<b><u>" + author + "</u></b>";
           }
 	content += author + ', ';
@@ -323,8 +322,12 @@ function showConferences(data) {
   for (let i = 0; i < data.numFound; i++) {
     if (data.docs[i].docType_s == "COMM") {
       content += "<li>";
-      for (let author of data.docs[i].authFullName_s)
-        content += author + ', ';
+      for (let author of data.docs[i].authFullName_s){
+        if (author == "Ayoub Karine"){
+           author = "<b><u>" + author + "</u></b>";
+          }
+	content += author + ', ';
+      }
       content += ' <b>' + data.docs[i].title_s + '</b>. ';
       content += '<span class="reference">' + data.docs[i].citationRef_s + ' </span>';
       content += ' <a href="data:application/octet-stream,' + data.docs[i].label_bibtex + '"';
