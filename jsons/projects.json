@@ -2,13 +2,13 @@
 	"current":[
 		{
 			"name": "-",
-			"name": "TIMES",
-			"link": "http://anr-times.unistra.fr/",
-			"date": "2017-",
-			"topic": "Geoscience and Remote Sensing data Analysis and Monitoring",
-			"partners": ["LIVE","EOST","LIPADE"],
-			"partners_links": ["https://live.unistra.fr/", "https://eost.unistra.fr/en/", "http://lipade.mi.parisdescartes.fr/?lang=fr"],
-			"fundings": "ANR"
+			"name": "-",
+			"link": "",
+			"date": "-",
+			"topic": "",
+			"partners": ,
+			"partners_links": ,
+			"fundings": ""
 		}
 	],
 	"past":[
@@ -25,7 +25,7 @@
 			"name": "-",
 			"name": "TIMES",
 			"link": "http://anr-times.unistra.fr/",
-			"date": "2017-",
+			"date": "2017-2020",
 			"topic": "Geoscience and Remote Sensing data Analysis and Monitoring",
 			"partners": ["LIVE","EOST","LIPADE"],
 			"partners_links": ["https://live.unistra.fr/", "https://eost.unistra.fr/en/", "http://lipade.mi.parisdescartes.fr/?lang=fr"],
