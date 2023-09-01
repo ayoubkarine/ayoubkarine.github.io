@@ -3,7 +3,7 @@
 		{
 			"date": "05/2023",
 			"content": "<a href=\"docs/TheseVisionSousMarine_LabISEN-Thales.pdf\" target=\"_blank\">Phd position on Frugal and compressed learning for the interpretation of underwater scenes (position filled)"
-		},
+		}, 
 		{
 			"date": "04/2023",
 			"content": "2 conference papers about No-reference 3D Point Cloud Quality Assessment have been accepted to The <a href=\"https://cbmi2023.org/ target=\"_blank\">CBMI 2023</a> and <a href=\"https://gretsi.fr/colloque2023/ target=\"_blank\">GRETSI 2023</a>" 
@@ -16,6 +16,10 @@
 			"date": "09/2022",
 			"content": "Our paper \"Semantic Images Segmentation for autonomous driving using Self-Attention Knowledge Distillation\" has been accepted to The <a href=\"https://www.sitis-conference.org/2022/\" target=\"_blank\">IEEE SITIS 2022</a>"
 		},
+		{
+			"date": "05/2023",
+			"content": "The deadline of our Special Issue \"<a href=\"docs/TheseVisionSousMarine_LabISEN-Thales.pdf\" target=\"_blank\">Artificial Intelligence Compression and Acceleration for Smart Sensing Applications\"</a> is expired".
+		}, 
 		{
 			"date": "08/2022",
 			"content": "Our paper \"No-reference Point Clouds Quality Assessment using Transformer and Visual Saliency\" has been accepted to The <a href=\"https://qoevma2022.youku.com/\" target=\"_blank\">QoEVMA/ACMM 2022</a>"
