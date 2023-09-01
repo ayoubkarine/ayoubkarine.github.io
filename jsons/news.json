@@ -1,6 +1,10 @@
 {
 	"news":[
 		{
+			"date": "05/2023",
+			"content": "<a href=\"docs/TheseVisionSousMarine_LabISEN-Thales.pdf\" target=\"_blank\">Frugal and compressed learning for the interpretation of underwater scenes (position filled)"
+		},
+		{
 			"date": "04/2023",
 			"content": "2 conference papers about No-reference 3D Point Cloud Quality Assessment have been accepted to The <a href=\"https://cbmi2023.org/ target=\"_blank\">CBMI 2023</a> and <a href=\"https://gretsi.fr/colloque2023/ target=\"_blank\">GRETSI 2023</a>" 
 		},
@@ -29,10 +33,6 @@
 			"content": "Salima Bourbia starts a PhD thesis, working on quality assessment of 3D point cloud"
 		},
 		{
-			"date": "11/2020",
-			"content": "Kacem Ichakdi starts a PhD thesis, working on 3D point cloud segmentation using deep learning"
-		},
-		{
 			"date": "08/2020",
 			"content": "New paper accepted at <a href=\"http: //www.ipta-conference.com/ipta20/\">IPTA2020</a>"
 		},
@@ -43,10 +43,6 @@
 		{
 			"date": "03/2020",
 			"content": "New journal paper accepted in <a href=\"https://www.journals.elsevier.com/computers-and-electrical-engineering target=\"_blank\">Computers & Electrical Engineering</a> on Multivariate Copula Statistical Model and Weighted Sparse Classification for Radar Image Target Recognition"
-		},
-		{
-			"date": "12/2019",
-			"content": "Simohamed Hdafa starts a PhD thesis, working on image captionning using deep learning"
 		},
 		{
 			"date": "09/2019",
