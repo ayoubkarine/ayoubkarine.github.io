@@ -8,7 +8,7 @@
 			"partners": ["LIVE","EOST","LIPADE"],
 			"partners_links": ["https://live.unistra.fr/", "https://eost.unistra.fr/en/", "http://lipade.mi.parisdescartes.fr/?lang=fr"],
 			"fundings": "ANR"
-			"name": "-",
+			"name": "-"
 		}
 	],
 	"past":[
@@ -29,7 +29,7 @@
 			"partners": ["LIVE","EOST","LIPADE"],
 			"partners_links": ["https://live.unistra.fr/", "https://eost.unistra.fr/en/", "http://lipade.mi.parisdescartes.fr/?lang=fr"],
 			"fundings": "ANR"
-			"name": "-",
+			"name": "-"
 		}
 	]
 }
