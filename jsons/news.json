@@ -1,6 +1,10 @@
 {
 	"news":[
 		{
+			"date": "09/2023",
+			"content": "The deadline of our Special Issue \"<a href=\"docs/TheseVisionSousMarine_LabISEN-Thales.pdf\" target=\"_blank\">Artificial Intelligence Compression and Acceleration for Smart Sensing Applications\"</a> is expired"
+		},
+		{
 			"date": "05/2023",
 			"content": "<a href=\"docs/TheseVisionSousMarine_LabISEN-Thales.pdf\" target=\"_blank\">Phd position on Frugal and compressed learning for the interpretation of underwater scenes (position filled)"
 		}, 
@@ -15,10 +19,6 @@
 		{
 			"date": "09/2022",
 			"content": "Our paper \"Semantic Images Segmentation for autonomous driving using Self-Attention Knowledge Distillation\" has been accepted to The <a href=\"https://www.sitis-conference.org/2022/\" target=\"_blank\">IEEE SITIS 2022</a>"
-		},
-		{
-			"date": "05/2023",
-			"content": "The deadline of our Special Issue \"<a href=\"docs/TheseVisionSousMarine_LabISEN-Thales.pdf\" target=\"_blank\">Artificial Intelligence Compression and Acceleration for Smart Sensing Applications\"</a> is expired"
 		}, 
 		{
 			"date": "08/2022",
