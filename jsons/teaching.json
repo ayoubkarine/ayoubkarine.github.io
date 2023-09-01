@@ -22,7 +22,7 @@
 			"department": "Computer Science department"
 		}
 	],
-	"courses": ["Full-stack web development", "Machine Learning", "Deep Learning", "XML", "Algorithmic", "Operating Systems", "Information System", "Security Network"]
+	"courses": ["Full-stack web development", "Machine Learning", "Deep Learning", "XML", "Algorithmic", "Operating Systems", "Information System"]
 }
 
 
