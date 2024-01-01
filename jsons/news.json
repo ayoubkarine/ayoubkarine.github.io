@@ -1,8 +1,12 @@
 {
 	"news":[
 		{
+			"date": "12/2023",
+			"content": "New paper accepted at <a href=\"https://sites.google.com/view/northafricansinml/\">Affinity Workshop NAML (North Africans in Machine Learning Workshop) of NeurIPS 2023</a>"
+		},
+		{
 			"date": "09/2023",
-			"content": "The deadline of our Special Issue \"<a href=\"docs/TheseVisionSousMarine_LabISEN-Thales.pdf\" target=\"_blank\">Artificial Intelligence Compression and Acceleration for Smart Sensing Applications\"</a> is expired"
+			"content": "The deadline of our Special Issue \"<a href=\"https://www.mdpi.com/journal/sensors/special_issues/DNN_Computing\" target=\"_blank\">Artificial Intelligence Compression and Acceleration for Smart Sensing Applications\"</a> is expired"
 		},
 		{
 			"date": "05/2023",
@@ -39,10 +43,6 @@
 		{
 			"date": "08/2020",
 			"content": "New paper accepted at <a href=\"http: //www.ipta-conference.com/ipta20/\">IPTA2020</a>"
-		},
-		{
-			"date": "05/2020",
-			"content": "<a href=\"docs/SujetCotutelle_ISENYncreaOuest.pdf\" target=\"_blank\">Phd position on 3D point cloud segmentation (position filled)"
 		},
 		{
 			"date": "03/2020",
