@@ -1,13 +1,13 @@
 {
 	"phd":[
 		{
-			"name": "PhD Student",
+			"name": "Gabriel GUEGANNO",
 			"link": "",
 			"position" : "PhD student",
-			"date": "10/2023-",
+			"date": "12/2023-",
 			"topic": "Frugal and compressed learning for the interpretation of underwater scenes",
-			"partners": ["T. Napoléon", "M. Jridi", "Franck Florin"],
-			"partners_links": ["https://www.linkedin.com/in/mohammed-el-hassouni-28a4b320/", "https://www.linkedin.com/in/aladine-chetouani-2aa66038/", "https://www.linkedin.com/in/maher-jridi-a7861a3a/"]
+			"partners": ["T. Napoléon", "A. AL Falou", "Franck Florin"],
+			"partners_links": ["https://scholar.google.fr/citations?user=4WPrgqMAAAAJ&hl=fr", "https://scholar.google.fr/citations?user=331l9OwAAAAJ&hl=fr", ""]
 		},
 		{
 			"name": "Salima Bourbia",
