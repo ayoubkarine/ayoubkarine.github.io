@@ -1,15 +1,18 @@
 {
 	"reviewerJournals":[
-		"IEEE Journal of Selected Topics in Signal Processing, Computer Vision and Image Understanding, Taylor and Francis International Journal of Remote Sensing, IEEE Access, IEEE Transactions on Geoscience and Remote Sensing, IEEE Geoscience and Remote Sensing Letters, MDPI Remote Sensing, Taylor and Francis European Journal of Remote Sensing, ELSEVIER Computers and Electrical Engineering"
+		"IEEE Transactions on Multimedia, IEEE Transactions on Industrial Informatics, IEEE Journal of Selected Topics in Signal Processing, Computer Vision and Image Understanding, Taylor and Francis International Journal of Remote Sensing, IEEE Access, IEEE Transactions on Geoscience and Remote Sensing, IEEE Geoscience and Remote Sensing Letters, MDPI Remote Sensing, Taylor and Francis European Journal of Remote Sensing, ELSEVIER Computers and Electrical Engineering"
 	],
     "reviewerConferences": [
-      "ICME 2023", "ICIP 2022, ICATH 2021, ICIP 2021, WINCOM 2019, DSSGA/MEDI 2019, IndabaX 2019, ORASIS 2019, ISIVC 2018, ATSIP 2017, AICCSA 2017, IPTA 2017, AICCSA 2016, SETIT 2016"
+      "ICASS 2023, ACADIS 2023, ICME 2023, ICATH'2021'2022'2023, ICIP'2021'2022'2023, ICATH 2021, WINCOM 2019, DSSGA/MEDI 2019, IndabaX 2019, ORASIS 2019, ISIVC 2018, ATSIP 2017, AICCSA 2017, IPTA 2017, AICCSA 2016, SETIT 2016"
     ],
 	"programcomittee":[
 		"WINCOM 2019, DSSGA/MEDI 2019, IndabaX 2019, ORASIS 2019"
 	],
   "organizingcomittee": [
-    "ORASIS 2019, ATSIP 2017, SIGMA 2016, IWAISE 2016, URAC 2015"
+    "ICASSP 2024, EGC 2023, ORASIS 2019, ATSIP 2017, SIGMA 2016, IWAISE 2016, URAC 2015"
+  ],
+  "chairman": [
+    "ICATH 2023, ORASIS 2023"
   ]
 }
 
