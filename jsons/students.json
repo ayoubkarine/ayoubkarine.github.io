@@ -21,6 +21,19 @@
 	],
   "master": [
     {
+      "name": "Youssef Qarssis",
+      "link": "https://ma.linkedin.com/in/youssef-qarssis-1ba1a2244",
+      "date": "05/2023-10/2023",
+      "topic": "Damage detection of material composites using deep learning",
+      "partners": [
+        "M. Tarfaoui"
+      ],
+      "partners_links": [
+        "https://scholar.google.com/citations?user=aIwj9L0AAAAJ&hl=fr",
+        "https://scholar.google.fr/citations?user=goUbn88AAAAJ&hl=fr"
+      ]
+    },
+   {
       "name": "Salima Bourbia",
       "link": "https://www.linkedin.com/in/bourbia-salima-2828b718a/?originalSubdomain=ma",
       "date": "03/2020-09/2020",
