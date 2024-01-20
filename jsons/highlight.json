@@ -1,7 +1,7 @@
 {
-	"date": "01/2023",
-	"title": "Special Issue",
-	"description": ["Near-Sensor DNN Computing \[Deadline : 31/07/2023\]"],
-	"link": ["https://www.mdpi.com/journal/sensors/special_issues/DNN_Computing"],
+	"date": "01/2024",
+	"title": "Internship",
+	"description": ["Embedded computer vision for seal detection"],
+	"link": ["docs/SujetM2_visionEmbarquée.pdf"],
 	"link_text": "More info"
 }
