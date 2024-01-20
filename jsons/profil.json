@@ -1,7 +1,7 @@
 {
 	"name": "Dr. Ayoub Karine",
 	"title": "Associate Professor at ISEN Yncréa Ouest",
-	"abstract": "I am an associate professor at <a href=\"https://isen-nantes.fr/\" target=\"_blank\">ISEN Nantes</a>. <br> My research interests include computer vision & machine/deep learning and are conducted in <a href=\"https://isen-brest.fr/labisen/\" target=\"_blank\">L@bISEN – Yncréa Ouest </a>/ <a href=\"https://isen-brest.fr/labisen/equipes-de-recherche/equipe-vision-ad/\" target=\"_blank\"> VISION-AD Team</a>.",
+	"abstract": "I am an associate professor at <a href=\"https://isen-nantes.fr/\" target=\"_blank\">ISEN Nantes</a>. My research interests include computer vision & machine/deep learning and are conducted in <a href=\"https://isen-brest.fr/labisen/\" target=\"_blank\">L@bISEN – Yncréa Ouest </a>/ <a href=\"https://isen-brest.fr/labisen/equipes-de-recherche/equipe-vision-ad/\" target=\"_blank\"> VISION-AD Team</a>.",
 	"image": "imgs/ayoub.jpg",
 	"keywords": ["Knowledge distillation", "machine/deep learning", "image classification/segmentation", "3D point cloud quality assessment"],
 	"contact": 
