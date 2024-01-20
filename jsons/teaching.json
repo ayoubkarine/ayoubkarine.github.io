@@ -2,10 +2,10 @@
 	"institutions":[
 		{
 			"date": "Since 09/2019",
-			"school": "ISEN Yncréa Ouest",
+			"school": "ISEN Nantes",
 			"info": "",
 			"link": "https://isen-nantes.fr/",
-			"department": "Nantes Campus"
+			"department": ""
 		},
 		{
 			"date": "2017-2019",
@@ -19,7 +19,7 @@
 			"school": "Faculty of science",
 			"info": "",
 			"link": "http://www.fsr.ac.ma/",
-			"department": "Computer Science department"
+			"department": "Computer Science Department"
 		}
 	],
 	"courses": ["Full-stack web development", "Machine Learning", "Deep Learning", "XML", "Algorithmic", "Operating Systems", "Information System"]
