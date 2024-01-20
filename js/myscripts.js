@@ -232,6 +232,12 @@ $(document).ready(function () {
     $("#organizingcomittee").append(data.organizingcomittee);
   });
 });
+$(document).ready(function () {
+  $.getJSON("jsons/services.json", function (data) {
+    $("#chairman").append(data.chairman);
+  });
+});
+
 
 // Function to load teaching from json
 $(document).ready(function(){
