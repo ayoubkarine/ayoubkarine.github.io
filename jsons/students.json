@@ -21,6 +21,18 @@
 	],
   "master": [
     {
+      "name": "Hamza Masmoudi",
+      "link": "",
+      "date": "03/2024-07/2024",
+      "topic": "Seal detection and counting through deep learning",
+      "partners": [
+        "M. Tarfaoui"
+      ],
+      "partners_links": [
+        "http://scholar.google.fr/citations?user=4WPrgqMAAAAJ&hl=fr"
+      ]
+    },
+  {
       "name": "Youssef Qarssis",
       "link": "https://ma.linkedin.com/in/youssef-qarssis-1ba1a2244",
       "date": "05/2023-10/2023",
