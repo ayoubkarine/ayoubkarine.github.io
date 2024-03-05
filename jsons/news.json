@@ -1,6 +1,10 @@
 {
 	"news":[
 		{
+			"date": "03/2024",
+			"content": Our paper \"<a href=\"https://www.sciencedirect.com/science/article/pii/S016786552400059X\" target=\"_blank\">Channel-spatial knowledge distillation for efficient semantic segmentation<a>\" has been accepted to The ELSEVIER Pattern Recognition Letters"
+		},		
+		{
 			"date": "12/2023",
 			"content": "New paper accepted at <a href=\"https://sites.google.com/view/northafricansinml/\">Affinity Workshop NAML (North Africans in Machine Learning Workshop) of NeurIPS 2023</a>"
 		},
