@@ -2,7 +2,7 @@
 	"news":[
 		{
 			"date": "03/2024",
-			"content": Our paper \"<a href=\"https://www.sciencedirect.com/science/article/pii/S016786552400059X\" target=\"_blank\">Channel-spatial knowledge distillation for efficient semantic segmentation<a>\" has been accepted to The ELSEVIER Pattern Recognition Letters"
+			"content": "Our paper <a href=\"https://www.sciencedirect.com/science/article/pii/S016786552400059X\" target=\"_blank\">Channel-spatial knowledge distillation for efficient semantic segmentation<a> has been accepted to The ELSEVIER Pattern Recognition Letters"
 		},		
 		{
 			"date": "12/2023",
