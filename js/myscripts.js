@@ -12,10 +12,9 @@ $(document).ready(function() {
 				$("#keywords").append(data.keywords[i] + '.');
 			}
 		}
-		$("#contactTeaching").append(data.contact.employer + '<br>' + data.contact.street + '<br>' + data.contact.city + '<br>');
-		$("#contactResearch").append(data.contact.employer + '<br>' + data.contact.street + '<br>' + data.contact.city + '<br>');
-		$("#email").append(data.contact.email);
-		$("#phone").append(data.contact.phone);
+		$("#contactTeaching").append(data.contactTeaching.employer + '<br>' + data.contactTeaching.street + '<br>' + data.contactTeaching.city + '<br>');
+		$("#contactResearch").append(data.contactResearch.employer + '<br>' + data.contactResearch.street + '<br>' + data.contactResearch.city + '<br>');
+		$("#email").append(data.contactResearch.email);
 		// External links if exist
 		var idstring;
 		$.each(data.links, function(key,val){
