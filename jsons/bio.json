@@ -1,7 +1,14 @@
 {
 	"background":[
 		{
-			"date": "Since 2019",
+			"date": "Since 09/2024",
+			"position": "Associate Professor",
+			"employer": ["Université Paris Cité"],
+			"employer_links": ["https://u-paris.fr/"],
+			"content": "Associate Professor at <a href=\"https://u-paris.fr/\" target=\"_blank\">Université Paris Cité</a>"
+		},
+		{
+			"date": "2019-2024",
 			"position": "Associate Professor",
 			"employer": ["ISEN Nantes"],
 			"employer_links": ["https://isen-nantes.fr/"],
