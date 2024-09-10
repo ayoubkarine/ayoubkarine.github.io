@@ -12,7 +12,8 @@ $(document).ready(function() {
 				$("#keywords").append(data.keywords[i] + '.');
 			}
 		}
-		$("#address").append(data.contact.employer + '<br>' + data.contact.street + '<br>' + data.contact.city + '<br>');
+		$("#addressTeaching").append(data.contact.employer + '<br>' + data.contact.street + '<br>' + data.contact.city + '<br>');
+		$("#addressResearch").append(data.contact.employer + '<br>' + data.contact.street + '<br>' + data.contact.city + '<br>');
 		$("#email").append(data.contact.email);
 		$("#phone").append(data.contact.phone);
 		// External links if exist
