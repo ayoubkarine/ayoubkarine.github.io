@@ -1,16 +1,22 @@
 {
 	"name": "Dr. Ayoub Karine",
 	"title": "Associate Professor at <a href=\"https://u-paris.fr/en/\" target=\"_blank\">Université Paris Cité</a>",
-	"abstract": "I am an associate professor at <a href=\"https://u-paris.fr/en/\" target=\"_blank\">Université Paris Cité</a>. My research interests include computer vision & machine/deep learning and are conducted at the <a href=\"https://sip.mi.parisdescartes.fr/\" target=\"_blank\"> SIP team </a> of the <a href=\"http://lipade.mi.parisdescartes.fr/?lang=fr\" target=\"_blank\"> LIPADE </a>. I teach at <a href=\"https://iutparis-seine.u-paris.fr/en/home-page/\" target=\"_blank\"> IUT de Paris - Rives de Seine </a>",
-	"image": "imgs/ayoub.jpg",
+	"abstract": "I am an associate professor at <a href=\"https://u-paris.fr/en/\" target=\"_blank\">Université Paris Cité</a>. My research interests include computer vision & machine/deep learning and are conducted at the <a href=\"https://sip.mi.parisdescartes.fr/\" target=\"_blank\"> SIP team </a> of the <a href=\"http://lipade.mi.parisdescartes.fr/?lang=fr\" target=\"_blank\"> LIPADE </a>. I teach at <a href=\"https://iutparis-seine.u-paris.fr/en/information-communication-technologies/\" target=\"_blank\"> Computer science department </a> of <a href=\"https://iutparis-seine.u-paris.fr/en/home-page/\" target=\"_blank\"> IUT de Paris - Rives de Seine </a>",
+	"image": "imgs/AK.png",
 	"keywords": ["Knowledge distillation", "machine/deep learning", "image classification/segmentation", "3D point cloud quality assessment"],
-	"contact": 
+	"contactTeaching": 
 	{
-		"employer": "ISEN Nantes",
-		"street": "33 Q , Chemin du Champ de Manœuvres",
-		"city": "44470 Carquefou, France",
-		"email": "ayoub.karine[at]isen-ouest.yncrea.fr",
-		"phone": "+33 (0)2 30 13 05 65"	
+		"employer": "<a href=\"https://iutparis-seine.u-paris.fr/en/information-communication-technologies/\" target=\"_blank\"> Computer science department </a> of <a href=\"https://iutparis-seine.u-paris.fr/en/home-page/\" target=\"_blank\"> IUT de Paris - Rives de Seine </a>",
+		"street": "143 Av. de Versailles",
+		"city": "75016 Paris, France",
+		"email": "ayoub.karine[at]u-paris.fr"
+	},
+	"contactResearch": 
+	{
+		"employer": "<a href=\"https://sip.mi.parisdescartes.fr/\" target=\"_blank\"> SIP team </a> of the <a href=\"http://lipade.mi.parisdescartes.fr/?lang=fr\" target=\"_blank\"> LIPADE </a>",
+		"street": "45 rue des Saints Pères",
+		"city": "75006 Paris, France",
+		"email": "ayoub.karine[at]u-paris.fr"
 	},
 	"links":
 	{
