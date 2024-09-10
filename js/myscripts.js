@@ -12,6 +12,7 @@ $(document).ready(function() {
 				$("#keywords").append(data.keywords[i] + '.');
 			}
 		}
+		console.log(data.contactTeaching);
 		$("#contactTeaching").append(data.contactTeaching.employer + '<br>' + data.contactTeaching.street + '<br>' + data.contactTeaching.city + '<br>');
 		$("#contactResearch").append(data.contactResearch.employer + '<br>' + data.contactResearch.street + '<br>' + data.contactResearch.city + '<br>');
 		$("#email").append(data.contactResearch.email);
