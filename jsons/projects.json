@@ -1,15 +1,6 @@
 {
 	"current":[
 		{
-			"name": "CAMOR",
-			"link": "",
-			"date": "01/2024 - 09/2025",
-			"topic": "Embedded computer vision for seal detection",
-			"partners": ["Office français de la biodiversité"],
-			"partners_links": ["https://ofb.gouv.fr/"],
-			"fundings": "OFB"
-		},
-		{
 			"name": "AFRUMAR",
 			"link": "",
 			"date": "12/2023 - 12/2026",
@@ -20,6 +11,15 @@
 		}
 	],
 	"past":[
+		{
+			"name": "CAMOR",
+			"link": "",
+			"date": "2023-2024",
+			"topic": "Embedded computer vision for seal detection",
+			"partners": ["Office français de la biodiversité"],
+			"partners_links": ["https://ofb.gouv.fr/"],
+			"fundings": "OFB"
+		},
 		{
 			"name": "AFB_SEAS",
 			"link": "",
