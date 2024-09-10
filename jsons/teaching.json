@@ -1,11 +1,18 @@
 {
 	"institutions":[
 		{
-			"date": "Since 09/2019",
+			"date": "Since 09/2024",
+			"school": "IUT de Paris - Rives de Seine - Université Paris Cité",
+			"info": "",
+			"link": "https://iutparis-seine.u-paris.fr/",
+			"department": "Computer science"
+		},
+		{
+			"date": "2019-2024",
 			"school": "ISEN Nantes",
 			"info": "",
 			"link": "https://isen-nantes.fr/",
-			"department": ""
+			"department": "Computer science"
 		},
 		{
 			"date": "2017-2019",
@@ -22,7 +29,7 @@
 			"department": "Computer Science Department"
 		}
 	],
-	"courses": ["Full-stack web development", "Machine Learning", "Deep Learning", "XML", "Algorithmic", "Operating Systems", "Information System"]
+	"courses": ["Algorithmic Complexity", "Computer Vision", "Full-stack web development", "Machine Learning", "Deep Learning", "XML", "Algorithmic", "Operating Systems", "Information System"]
 }
 
 
