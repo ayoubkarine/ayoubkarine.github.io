@@ -1,7 +1,7 @@
 {
 	"name": "Dr. Ayoub Karine",
 	"title": "Associate Professor at <a href=\"https://u-paris.fr/en/\" target=\"_blank\">Université Paris Cité</a>",
-	"abstract": "I am an associate professor at <a href=\"https://u-paris.fr/en/\" target=\"_blank\">Université Paris Cité</a>. My research interests include computer vision & machine/deep learning and are conducted at the <a href=\"https://sip.mi.parisdescartes.fr/\" target=\"_blank\"> SIP team </a> of the <a href=\"http://lipade.mi.parisdescartes.fr/?lang=fr\" target=\"_blank\"> LIPADE </a>. I teach at <a href=\"https://iutparis-seine.u-paris.fr/en/information-communication-technologies/\" target=\"_blank\"> Computer science department </a> of <a href=\"https://iutparis-seine.u-paris.fr/en/home-page/\" target=\"_blank\"> IUT de Paris - Rives de Seine </a>",
+	"abstract": "I am an associate professor at <a href=\"https://u-paris.fr/en/\" target=\"_blank\">Université Paris Cité</a>. My research interests include computer vision & machine/deep learning and are conducted at the <a href=\"https://sip.mi.parisdescartes.fr/\" target=\"_blank\"> SIP team </a> of the <a href=\"http://lipade.mi.parisdescartes.fr/?lang=fr\" target=\"_blank\">LIPADE</a>. I teach at <a href=\"https://iutparis-seine.u-paris.fr/en/information-communication-technologies/\" target=\"_blank\"> Computer science department </a> of <a href=\"https://iutparis-seine.u-paris.fr/en/home-page/\" target=\"_blank\"> IUT de Paris - Rives de Seine </a>",
 	"image": "imgs/AK.png",
 	"keywords": ["Knowledge distillation", "machine/deep learning", "image classification/segmentation", "3D point cloud quality assessment"],
 	"contactTeaching": 
