@@ -13,7 +13,7 @@
 	},
 	"contactResearch": 
 	{
-		"employer": "<a href=\"https://sip.mi.parisdescartes.fr/\" target=\"_blank\"> SIP team </a> of the <a href=\"http://lipade.mi.parisdescartes.fr/?lang=fr\" target=\"_blank\"> LIPADE </a>",
+		"employer": "<a href=\"https://sip.mi.parisdescartes.fr/\" target=\"_blank\"> SIP team </a> of the <a href=\"http://lipade.mi.parisdescartes.fr/" target=\"_blank\"> LIPADE </a>",
 		"street": "45 rue des Saints Pères",
 		"city": "75006 Paris, France",
 		"email": "ayoub.karine[at]u-paris.fr"
